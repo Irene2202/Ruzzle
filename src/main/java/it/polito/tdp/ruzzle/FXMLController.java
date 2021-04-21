@@ -124,6 +124,7 @@ public class FXMLController {
     @FXML
     void handleReset(ActionEvent event) {
     	model.reset();
+    	txtResult.clear();
     }
     
     @FXML
